@@ -7,10 +7,18 @@
 const hesse = document.querySelector('.hesse');
 
 const hesseQuotes = document.querySelector('.hesse-quotes');
-
+//
+//
+// PESSOA
 const pessoa = document.querySelector('.pessoa');
 
+const pessoaQuotes = document.querySelector('.pessoa-quotes');
+//
+//
+// CORTAZAR
 const cortazar = document.querySelector('.cortazar');
+
+const cortazarQuotes = document.querySelector('.cortazar-quotes');
 
 const bradbury = document.querySelector('.bradbury');
 
@@ -55,22 +63,62 @@ hesse.addEventListener('click', () => {
     backToLibraryBtn.style.display = "inline";
     hesseQuotes.style.display = "inline";
 })
-
+//
 // WHEN BACK TO LIBRARY BUTTON IS PRESSED
-
+//
 backToLibraryBtn.addEventListener('click', () => {
-  hesse.style.display = "inline";
-  pessoa.style.display = "inline";
-  cortazar.style.display = "inline";
-  bradbury.style.display = "inline";
-  borges.style.display = "inline";
-  dostoievski.style.display = "inline";
-  tolstoi.style.display = "inline";
-  navokob.style.display = "inline";
-  orwell.style.display = "inline";
-  benedetti.style.display = "inline";
-  unamuno.style.display = "inline";
-  wilde.style.display = "inline";
+  hesse.style.display = "flex";
+  pessoa.style.display = "flex";
+  cortazar.style.display = "flex";
+  bradbury.style.display = "flex";
+  borges.style.display = "flex";
+  dostoievski.style.display = "flex";
+  tolstoi.style.display = "flex";
+  navokob.style.display = "flex";
+  orwell.style.display = "flex";
+  benedetti.style.display = "flex";
+  unamuno.style.display = "flex";
+  wilde.style.display = "flex";
   backToLibraryBtn.style.display = "none";
   hesseQuotes.style.display = "none";
+  pessoaQuotes.style.display = "none";
+  cortazarQuotes.style.display = "none";
+})
+//
+// WHEN PESSOA IS CLICKED
+//
+pessoa.addEventListener('click', () => {
+    hesse.style.display = "none";
+    pessoa.style.display = "none";
+    cortazar.style.display = "none";
+    bradbury.style.display = "none";
+    borges.style.display = "none";
+    dostoievski.style.display = "none";
+    tolstoi.style.display = "none";
+    navokob.style.display = "none";
+    orwell.style.display = "none";
+    benedetti.style.display = "none";
+    unamuno.style.display = "none";
+    wilde.style.display = "none";
+    backToLibraryBtn.style.display = "inline";
+    pessoaQuotes.style.display = "inline";
+})
+//
+// WHEN CORTAZAR IS CLICKED
+//
+cortazar.addEventListener('click', () => {
+    hesse.style.display = "none";
+    pessoa.style.display = "none";
+    cortazar.style.display = "none";
+    bradbury.style.display = "none";
+    borges.style.display = "none";
+    dostoievski.style.display = "none";
+    tolstoi.style.display = "none";
+    navokob.style.display = "none";
+    orwell.style.display = "none";
+    benedetti.style.display = "none";
+    unamuno.style.display = "none";
+    wilde.style.display = "none";
+    backToLibraryBtn.style.display = "inline";
+    cortazarQuotes.style.display = "inline";
 })

@@ -32,7 +32,7 @@
 
 .authors {
   display: grid;
-  grid-template-columns: 100px 100px 100px 100px 100px ;
+  grid-template-columns: 100px 100px 100px 100px 100px;
   grid-template-rows: 250px 250px;
   grid-column-gap: 1px;
   grid-row-gap: 20px;
@@ -363,8 +363,8 @@
   font-family: "Montserrat", sans-serif;
   border-radius: 40px;
   margin-bottom: 30px;
-  transform: scale(0.7);
   display: none;
+  transform: scale(1.2);
 }
 
 /* HESSE QUOTES */
@@ -372,13 +372,45 @@
 .hesse-quotes{
   position: absolute;
   font-family: "montserrat", sans-serif;
+  font-size: 20px;
   text-align: center;
   display: none;
-  transform: translate(375px, -700px);
+  transform: translate(342px, -700px);
 
 }
 
 .hesse-quotes-name{
   margin-bottom: 20px;
+}
 
+/* PESSOA QUOTES */
+
+.pessoa-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(270px, -700px);
+
+}
+
+.pessoa-quotes-name{
+  margin-bottom: 20px;
+}
+
+/* CORTAZAR QUOTES */
+
+.cortazar-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(255px, -700px);
+
+}
+
+.cortazar-quotes-name{
+  margin-bottom: 20px;
 }

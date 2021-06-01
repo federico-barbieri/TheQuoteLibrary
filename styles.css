@@ -1,0 +1,368 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* COMPLETE GRID */
+
+#everything {
+  width: 576px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+
+/* LIBRARY TITLE*/
+
+.library-title{
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+
+  margin-bottom: 25px;
+}
+
+/* authors */
+
+.authors {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px;
+  grid-template-rows: 250px 250px;
+  grid-column-gap: 1px;
+  grid-row-gap: 20px;
+
+}
+
+
+/* HESSE */
+
+.hesse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 250px;
+  background-color: #fcf876;
+  font-family: 'Jost', sans-serif;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 0px;
+}
+
+.hesse:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+
+}
+
+/* PESSOA */
+
+.pessoa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 250px;
+  background-color: #82c4c3;
+  font-family: 'Jost', sans-serif;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 0px;
+}
+
+.pessoa:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
+/* CORTAZAR */
+
+.cortazar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 250px;
+  background-color: #faf4ff;
+  font-family: 'Jost', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 0px;
+}
+
+.cortazar:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
+/* BRADBURY */
+
+.bradbury {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 250px;
+  background-color: #eb9788;
+  font-family: 'Jost', sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 0px;
+}
+
+.bradbury:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
+/* BORGES */
+
+.borges{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 250px;
+  background-color: #b6c9f0;
+  font-family: 'Jost', sans-serif;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 0px;
+}
+
+.borges:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
+/* DOSTOIEVSKI */
+
+.dostoievski{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 250px;
+  background-color: #f7a440;
+  font-family: 'Jost', sans-serif;
+  font-size: 9px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 0px;
+}
+
+.dostoievski:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
+/* TOLSTOI */
+
+.tolstoi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 250px;
+  background-color: #194350;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.tolstoi:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
+/* NAVOKOB*/
+
+.navokob{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 250px;
+  background-color: #ff8882;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.navokob:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
+/* ORWELL*/
+
+.orwell{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 250px;
+  background-color: #fb3640;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.orwell:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
+/* BENEDETTI*/
+
+.benedetti{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 250px;
+  background-color: #98ddca;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.benedetti:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
+/* UNAMUNO*/
+
+.unamuno{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 250px;
+  background-color: #e4fbff;
+  font-family: 'Jost', sans-serif;
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.unamuno:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
+/* WILDE*/
+
+.wilde{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 250px;
+  background-color: #810034;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.wilde:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
+/* BACK TO LIBRARY BUTTON */
+
+.back-to-library{
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 40px;
+  margin-bottom: 30px;
+  transform: scale(0.7);
+  display: none;
+}

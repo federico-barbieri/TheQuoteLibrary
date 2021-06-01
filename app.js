@@ -19,8 +19,12 @@ const pessoaQuotes = document.querySelector('.pessoa-quotes');
 const cortazar = document.querySelector('.cortazar');
 
 const cortazarQuotes = document.querySelector('.cortazar-quotes');
-
+//
+//
+// BRADBURY
 const bradbury = document.querySelector('.bradbury');
+
+const bradburyQuotes = document.querySelector('.bradbury-quotes');
 
 const borges = document.querySelector('.borges');
 
@@ -83,6 +87,7 @@ backToLibraryBtn.addEventListener('click', () => {
   hesseQuotes.style.display = "none";
   pessoaQuotes.style.display = "none";
   cortazarQuotes.style.display = "none";
+  bradburyQuotes.style.display = "none";
 })
 //
 // WHEN PESSOA IS CLICKED
@@ -121,4 +126,24 @@ cortazar.addEventListener('click', () => {
     wilde.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     cortazarQuotes.style.display = "inline";
+})
+//
+// WHEN BRADBURY IS CLICKED
+//
+bradbury.addEventListener('click', () => {
+    hesse.style.display = "none";
+    pessoa.style.display = "none";
+    cortazar.style.display = "none";
+    bradbury.style.display = "none";
+    borges.style.display = "none";
+    dostoievski.style.display = "none";
+    tolstoi.style.display = "none";
+    navokob.style.display = "none";
+    orwell.style.display = "none";
+    benedetti.style.display = "none";
+    unamuno.style.display = "none";
+    wilde.style.display = "none";
+    backToLibraryBtn.style.display = "inline";
+    bradburyQuotes.style.display = "inline";
+
 })

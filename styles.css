@@ -414,3 +414,19 @@
 .cortazar-quotes-name{
   margin-bottom: 20px;
 }
+
+/* BRADBURY QUOTES */
+
+.bradbury-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(240px, -700px);
+
+}
+
+.bradbury-quotes-name{
+  margin-bottom: 20px;
+}

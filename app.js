@@ -25,22 +25,54 @@ const cortazarQuotes = document.querySelector('.cortazar-quotes');
 const bradbury = document.querySelector('.bradbury');
 
 const bradburyQuotes = document.querySelector('.bradbury-quotes');
-
+//
+//
+// BORGES
 const borges = document.querySelector('.borges');
 
+const borgesQuotes = document.querySelector('.borges-quotes');
+//
+//
+// DOSTOIEVSKI
 const dostoievski = document.querySelector('.dostoievski');
 
+const dostoievskiQuotes = document.querySelector('.dostoievski-quotes');
+//
+//
+// TOLSTOI
 const tolstoi = document.querySelector('.tolstoi');
 
+const tolstoiQuotes = document.querySelector('.tolstoi-quotes');
+//
+//
+// NAVOKOB
 const navokob = document.querySelector('.navokob');
 
+const navokobQuotes = document.querySelector('.navokob-quotes');
+//
+//
+// ORWELL
 const orwell = document.querySelector('.orwell');
 
+const orwellQuotes = document.querySelector('.orwell-quotes');
+//
+//
+// BENEDETTI
 const benedetti = document.querySelector('.benedetti');
 
+const benedettiQuotes = document.querySelector('.benedetti-quotes');
+//
+//
+// UNAMUNO
 const unamuno = document.querySelector('.unamuno');
 
+const unamunoQuotes = document.querySelector('.unamuno-quotes');
+//
+//
+// WILDE
 const wilde = document.querySelector('.wilde');
+
+const wildeQuotes = document.querySelector('.wilde-quotes');
 
 //
 //
@@ -88,6 +120,14 @@ backToLibraryBtn.addEventListener('click', () => {
   pessoaQuotes.style.display = "none";
   cortazarQuotes.style.display = "none";
   bradburyQuotes.style.display = "none";
+  borgesQuotes.style.display = "none";
+  dostoievskiQuotes.style.display = "none";
+  tolstoiQuotes.style.display = "none";
+  navokobQuotes.style.display = "none";
+  orwellQuotes.style.display = "none";
+  benedettiQuotes.style.display = "none";
+  unamunoQuotes.style.display = "none";
+  wildeQuotes.style.display = "none";
 })
 //
 // WHEN PESSOA IS CLICKED
@@ -145,5 +185,201 @@ bradbury.addEventListener('click', () => {
     wilde.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     bradburyQuotes.style.display = "inline";
+
+})
+
+// WHEN BORGES IS CLICKED
+//
+borges.addEventListener('click', () => {
+    hesse.style.display = "none";
+    pessoa.style.display = "none";
+    cortazar.style.display = "none";
+    bradbury.style.display = "none";
+    borges.style.display = "none";
+    dostoievski.style.display = "none";
+    tolstoi.style.display = "none";
+    navokob.style.display = "none";
+    orwell.style.display = "none";
+    benedetti.style.display = "none";
+    unamuno.style.display = "none";
+    wilde.style.display = "none";
+    backToLibraryBtn.style.display = "inline";
+    bradburyQuotes.style.display = "none";
+    borgesQuotes.style.display = "inline";
+
+})
+
+// WHEN DOSTOIEVSKI IS CLICKED
+//
+dostoievski.addEventListener('click', () => {
+    hesse.style.display = "none";
+    pessoa.style.display = "none";
+    cortazar.style.display = "none";
+    bradbury.style.display = "none";
+    borges.style.display = "none";
+    dostoievski.style.display = "none";
+    tolstoi.style.display = "none";
+    navokob.style.display = "none";
+    orwell.style.display = "none";
+    benedetti.style.display = "none";
+    unamuno.style.display = "none";
+    wilde.style.display = "none";
+    backToLibraryBtn.style.display = "inline";
+    bradburyQuotes.style.display = "none";
+    borgesQuotes.style.display = "none";
+    dostoievskiQuotes.style.display = "inline";
+
+})
+
+// WHEN TOLSTOI IS CLICKED
+//
+tolstoi.addEventListener('click', () => {
+    hesse.style.display = "none";
+    pessoa.style.display = "none";
+    cortazar.style.display = "none";
+    bradbury.style.display = "none";
+    borges.style.display = "none";
+    dostoievski.style.display = "none";
+    tolstoi.style.display = "none";
+    navokob.style.display = "none";
+    orwell.style.display = "none";
+    benedetti.style.display = "none";
+    unamuno.style.display = "none";
+    wilde.style.display = "none";
+    backToLibraryBtn.style.display = "inline";
+    bradburyQuotes.style.display = "none";
+    borgesQuotes.style.display = "none";
+    dostoievskiQuotes.style.display = "none";
+    tolstoiQuotes.style.display = "inline";
+
+})
+
+// WHEN NAVOKOB IS CLICKED
+//
+navokob.addEventListener('click', () => {
+    hesse.style.display = "none";
+    pessoa.style.display = "none";
+    cortazar.style.display = "none";
+    bradbury.style.display = "none";
+    borges.style.display = "none";
+    dostoievski.style.display = "none";
+    tolstoi.style.display = "none";
+    navokob.style.display = "none";
+    orwell.style.display = "none";
+    benedetti.style.display = "none";
+    unamuno.style.display = "none";
+    wilde.style.display = "none";
+    backToLibraryBtn.style.display = "inline";
+    bradburyQuotes.style.display = "none";
+    borgesQuotes.style.display = "none";
+    dostoievskiQuotes.style.display = "none";
+    tolstoiQuotes.style.display = "none";
+    navokobQuotes.style.display = "inline";
+
+})
+
+// WHEN ORWELL IS CLICKED
+//
+orwell.addEventListener('click', () => {
+    hesse.style.display = "none";
+    pessoa.style.display = "none";
+    cortazar.style.display = "none";
+    bradbury.style.display = "none";
+    borges.style.display = "none";
+    dostoievski.style.display = "none";
+    tolstoi.style.display = "none";
+    navokob.style.display = "none";
+    orwell.style.display = "none";
+    benedetti.style.display = "none";
+    unamuno.style.display = "none";
+    wilde.style.display = "none";
+    backToLibraryBtn.style.display = "inline";
+    bradburyQuotes.style.display = "none";
+    borgesQuotes.style.display = "none";
+    dostoievskiQuotes.style.display = "none";
+    tolstoiQuotes.style.display = "none";
+    navokobQuotes.style.display = "none";
+    orwellQuotes.style.display = "inline";
+
+})
+
+// WHEN BENEDETTI IS CLICKED
+//
+benedetti.addEventListener('click', () => {
+    hesse.style.display = "none";
+    pessoa.style.display = "none";
+    cortazar.style.display = "none";
+    bradbury.style.display = "none";
+    borges.style.display = "none";
+    dostoievski.style.display = "none";
+    tolstoi.style.display = "none";
+    navokob.style.display = "none";
+    orwell.style.display = "none";
+    benedetti.style.display = "none";
+    unamuno.style.display = "none";
+    wilde.style.display = "none";
+    backToLibraryBtn.style.display = "inline";
+    bradburyQuotes.style.display = "none";
+    borgesQuotes.style.display = "none";
+    dostoievskiQuotes.style.display = "none";
+    tolstoiQuotes.style.display = "none";
+    navokobQuotes.style.display = "none";
+    orwellQuotes.style.display = "none";
+    benedettiQuotes.style.display = "inline";
+
+})
+
+// WHEN UNAMUNO IS CLICKED
+//
+unamuno.addEventListener('click', () => {
+    hesse.style.display = "none";
+    pessoa.style.display = "none";
+    cortazar.style.display = "none";
+    bradbury.style.display = "none";
+    borges.style.display = "none";
+    dostoievski.style.display = "none";
+    tolstoi.style.display = "none";
+    navokob.style.display = "none";
+    orwell.style.display = "none";
+    benedetti.style.display = "none";
+    unamuno.style.display = "none";
+    wilde.style.display = "none";
+    backToLibraryBtn.style.display = "inline";
+    bradburyQuotes.style.display = "none";
+    borgesQuotes.style.display = "none";
+    dostoievskiQuotes.style.display = "none";
+    tolstoiQuotes.style.display = "none";
+    navokobQuotes.style.display = "none";
+    orwellQuotes.style.display = "none";
+    benedettiQuotes.style.display = "none";
+    unamunoQuotes.style.display = "inline";
+
+})
+
+// WHEN WILDE IS CLICKED
+//
+wilde.addEventListener('click', () => {
+    hesse.style.display = "none";
+    pessoa.style.display = "none";
+    cortazar.style.display = "none";
+    bradbury.style.display = "none";
+    borges.style.display = "none";
+    dostoievski.style.display = "none";
+    tolstoi.style.display = "none";
+    navokob.style.display = "none";
+    orwell.style.display = "none";
+    benedetti.style.display = "none";
+    unamuno.style.display = "none";
+    wilde.style.display = "none";
+    backToLibraryBtn.style.display = "inline";
+    bradburyQuotes.style.display = "none";
+    borgesQuotes.style.display = "none";
+    dostoievskiQuotes.style.display = "none";
+    tolstoiQuotes.style.display = "none";
+    navokobQuotes.style.display = "none";
+    orwellQuotes.style.display = "none";
+    benedettiQuotes.style.display = "none";
+    unamunoQuotes.style.display = "none";
+    wildeQuotes.style.display = "inline";
 
 })

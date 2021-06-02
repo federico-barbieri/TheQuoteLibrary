@@ -430,3 +430,131 @@
 .bradbury-quotes-name{
   margin-bottom: 20px;
 }
+
+/* BORGES QUOTES */
+
+.borges-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(265px, -700px);
+
+}
+
+.borges-quotes-name{
+  margin-bottom: 20px;
+}
+
+/* DOSTOIEVSKI QUOTES */
+
+.dostoievski-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(175px, -700px);
+
+}
+
+.dostoievski-quotes-name{
+  margin-bottom: 20px;
+}
+
+/* TOLSTOI QUOTES */
+
+.tolstoi-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(345px, -700px);
+
+}
+
+.tolstoi-quotes-name{
+  margin-bottom: 20px;
+}
+
+/* NAVOKOB QUOTES */
+
+.navokob-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(190px, -700px);
+
+}
+
+.navokob-quotes-name{
+  margin-bottom: 20px;
+}
+
+/* ORWELL QUOTES */
+
+.orwell-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(275px, -700px);
+
+}
+
+.orwell-quotes-name{
+  margin-bottom: 20px;
+}
+
+/* BENEDETTI QUOTES */
+
+.benedetti-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(248px, -700px);
+
+}
+
+.benedetti-quotes-name{
+  margin-bottom: 20px;
+}
+
+/* UNAMUNO QUOTES */
+
+.unamuno-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(145px, -700px);
+
+}
+
+.unamuno-quotes-name{
+  margin-bottom: 20px;
+}
+
+/* WILDE QUOTES */
+
+.wilde-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(275px, -700px);
+
+}
+
+.wilde-quotes-name{
+  margin-bottom: 20px;
+}

@@ -437,6 +437,33 @@
   box-shadow: 5px 5px 8px gray;
 }
 
+/* GARCIA MÁRQUEZ */
+
+.garcia-marquez{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 250px;
+  background-color: #064420;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  font-size: 7px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.garcia-marquez:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
 /* BACK TO LIBRARY BUTTON */
 
 .back-to-library{
@@ -653,7 +680,7 @@
   font-size: 20px;
   text-align: center;
   display: none;
-  transform: translate(615px, -700px);
+  transform: translate(290px, -700px);
 }
 
 .bukowski-quotes-name{
@@ -668,7 +695,7 @@
   font-size: 20px;
   text-align: center;
   display: none;
-  transform: translate(664px, -700px);
+  transform: translate(340px, -700px);
 }
 
 .thompson-quotes-name{
@@ -683,9 +710,24 @@
   font-size: 20px;
   text-align: center;
   display: none;
-  transform: translate(660px, -700px);
+  transform: translate(310px, -700px);
 }
 
 .alighieri-quotes-name{
+  margin-bottom: 20px;
+}
+
+/* GARCÍA MÁRQUEZ QUOTES */
+
+.garcia-marquez-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(270px, -700px);
+}
+
+.garcia-marquez-quotes-name{
   margin-bottom: 20px;
 }

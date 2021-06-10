@@ -97,6 +97,14 @@ const alighieriQuotes = document.querySelector('.alighieri-quotes');
 const garciaMarquez = document.querySelector('.garcia-marquez');
 
 const garciaMarquezQuotes = document.querySelector('.garcia-marquez-quotes');
+//
+//
+// DESPENTES
+const despentes = document.querySelector('.despentes');
+
+const despentesQuotes = document.querySelector('.despentes-quotes');
+//
+//
 // BACK-TO-LIBRARY BUTTON
 
 const backToLibraryBtn = document.querySelector('.back-to-library');
@@ -120,6 +128,7 @@ hesse.addEventListener('click', () => {
     thompson.style.display = "none";
     alighieri.style.display = "none";
     garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     hesseQuotes.style.display = "inline";
 })
@@ -143,6 +152,7 @@ backToLibraryBtn.addEventListener('click', () => {
   thompson.style.display = "flex";
   alighieri.style.display = "flex";
   garciaMarquez.style.display = "flex";
+  despentes.style.display = "flex";
   backToLibraryBtn.style.display = "none";
   hesseQuotes.style.display = "none";
   pessoaQuotes.style.display = "none";
@@ -160,6 +170,7 @@ backToLibraryBtn.addEventListener('click', () => {
   thompsonQuotes.style.display = "none";
   alighieriQuotes.style.display = "none";
   garciaMarquezQuotes.style.display = "none";
+  despentesQuotes.style.display = "none";
 })
 //
 // WHEN PESSOA IS CLICKED
@@ -204,6 +215,7 @@ cortazar.addEventListener('click', () => {
     thompson.style.display = "none";
     alighieri.style.display = "none";
     garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     cortazarQuotes.style.display = "inline";
 })
@@ -227,6 +239,7 @@ bradbury.addEventListener('click', () => {
     thompson.style.display = "none";
     alighieri.style.display = "none";
     garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     bradburyQuotes.style.display = "inline";
 
@@ -251,6 +264,7 @@ borges.addEventListener('click', () => {
     thompson.style.display = "none";
     alighieri.style.display = "none";
     garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     borgesQuotes.style.display = "inline";
 
@@ -275,6 +289,7 @@ dostoievski.addEventListener('click', () => {
     thompson.style.display = "none";
     alighieri.style.display = "none";
     garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     dostoievskiQuotes.style.display = "inline";
 
@@ -299,6 +314,7 @@ tolstoi.addEventListener('click', () => {
     thompson.style.display = "none";
     alighieri.style.display = "none";
     garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     tolstoiQuotes.style.display = "inline";
 
@@ -323,6 +339,7 @@ navokob.addEventListener('click', () => {
     thompson.style.display = "none";
     alighieri.style.display = "none";
     garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     navokobQuotes.style.display = "inline";
 
@@ -347,6 +364,7 @@ orwell.addEventListener('click', () => {
     thompson.style.display = "none";
     alighieri.style.display = "none";
     garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     orwellQuotes.style.display = "inline";
 
@@ -371,6 +389,7 @@ benedetti.addEventListener('click', () => {
     thompson.style.display = "none";
     alighieri.style.display = "none";
     garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     benedettiQuotes.style.display = "inline";
 
@@ -395,6 +414,7 @@ unamuno.addEventListener('click', () => {
     thompson.style.display = "none";
     alighieri.style.display = "none";
     garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     unamunoQuotes.style.display = "inline";
 
@@ -419,6 +439,7 @@ wilde.addEventListener('click', () => {
     thompson.style.display = "none";
     alighieri.style.display = "none";
     garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     wildeQuotes.style.display = "inline";
 
@@ -443,6 +464,7 @@ bukowski.addEventListener('click', () => {
     thompson.style.display = "none";
     alighieri.style.display = "none";
     garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     bukowskiQuotes.style.display = "inline";
 })
@@ -466,6 +488,7 @@ thompson.addEventListener('click', () => {
     thompson.style.display = "none";
     alighieri.style.display = "none";
     garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     thompsonQuotes.style.display = "inline";
 })
@@ -489,6 +512,7 @@ alighieri.addEventListener('click', () => {
     thompson.style.display = "none";
     alighieri.style.display = "none";
     garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     alighieriQuotes.style.display = "inline";
 })
@@ -512,6 +536,31 @@ garciaMarquez.addEventListener('click', () => {
     thompson.style.display = "none";
     alighieri.style.display = "none";
     garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     garciaMarquezQuotes.style.display = "inline";
+})
+
+// WHEN DESPENTES IS CLICKED
+//
+despentes.addEventListener('click', () => {
+    hesse.style.display = "none";
+    pessoa.style.display = "none";
+    cortazar.style.display = "none";
+    bradbury.style.display = "none";
+    borges.style.display = "none";
+    dostoievski.style.display = "none";
+    tolstoi.style.display = "none";
+    navokob.style.display = "none";
+    orwell.style.display = "none";
+    benedetti.style.display = "none";
+    unamuno.style.display = "none";
+    wilde.style.display = "none";
+    bukowski.style.display = "none";
+    thompson.style.display = "none";
+    alighieri.style.display = "none";
+    garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
+    backToLibraryBtn.style.display = "inline";
+    despentesQuotes.style.display = "inline";
 })

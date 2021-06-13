@@ -8,7 +8,7 @@
 /* COMPLETE GRID */
 
 #everything {
-  width: 576px;
+
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -545,6 +545,33 @@
   box-shadow: 5px 5px 8px gray;
 }
 
+/* KAFKA */
+
+.kafka{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 250px;
+  background-color: #9fd8df;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.kafka:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
 /* BACK TO LIBRARY BUTTON */
 
 .back-to-library{
@@ -681,7 +708,7 @@
   font-size: 20px;
   text-align: center;
   display: none;
-  transform: translate(190px, -700px);
+  transform: translate(200px, -700px);
 
 }
 
@@ -836,7 +863,7 @@
   font-size: 20px;
   text-align: center;
   display: none;
-  transform: translate(170px, -700px);
+  transform: translate(180px, -700px);
 }
 
 .murakami-quotes-name{
@@ -856,4 +883,25 @@
 
 .gogol-quotes-name{
   margin-bottom: 20px;
+}
+
+/* KAFKA QUOTES */
+
+.kafka-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(282px, -700px);
+}
+
+.kafka-quotes-name{
+  margin-bottom: 20px;
+}
+
+@media (max-width: 976px){
+.all-quotes{
+  transform: translateX(50px);
+}
 }

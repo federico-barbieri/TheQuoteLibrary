@@ -123,6 +123,12 @@ const kafka = document.querySelector('.kafka');
 const kafkaQuotes = document.querySelector('.kafka-quotes');
 //
 //
+// KIERKEGAARD
+const kierkegaard = document.querySelector('.kierkegaard');
+
+const kierkegaardQuotes = document.querySelector('.kierkegaard-quotes');
+//
+//
 // BACK-TO-LIBRARY BUTTON
 
 const backToLibraryBtn = document.querySelector('.back-to-library');
@@ -150,6 +156,7 @@ hesse.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     hesseQuotes.style.display = "inline";
 })
@@ -177,6 +184,7 @@ backToLibraryBtn.addEventListener('click', () => {
   murakami.style.display = "flex";
   gogol.style.display = "flex";
   kafka.style.display = "flex";
+  kierkegaard.style.display = "flex";
   backToLibraryBtn.style.display = "none";
   hesseQuotes.style.display = "none";
   pessoaQuotes.style.display = "none";
@@ -198,6 +206,7 @@ backToLibraryBtn.addEventListener('click', () => {
   murakamiQuotes.style.display = "none";
   gogolQuotes.style.display = "none";
   kafkaQuotes.style.display = "none";
+  kierkegaardQuotes.style.display = "none";
 
 })
 //
@@ -224,6 +233,7 @@ pessoa.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     pessoaQuotes.style.display = "inline";
 })
@@ -251,6 +261,7 @@ cortazar.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     cortazarQuotes.style.display = "inline";
 })
@@ -278,6 +289,7 @@ bradbury.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     bradburyQuotes.style.display = "inline";
 
@@ -306,6 +318,7 @@ borges.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     borgesQuotes.style.display = "inline";
 
@@ -334,6 +347,7 @@ dostoievski.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     dostoievskiQuotes.style.display = "inline";
 
@@ -362,6 +376,7 @@ tolstoi.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     tolstoiQuotes.style.display = "inline";
 
@@ -390,6 +405,7 @@ navokob.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     navokobQuotes.style.display = "inline";
 
@@ -418,6 +434,7 @@ orwell.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     orwellQuotes.style.display = "inline";
 
@@ -446,6 +463,7 @@ benedetti.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     benedettiQuotes.style.display = "inline";
 
@@ -474,6 +492,7 @@ unamuno.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     unamunoQuotes.style.display = "inline";
 
@@ -502,6 +521,7 @@ wilde.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     wildeQuotes.style.display = "inline";
 
@@ -530,6 +550,7 @@ bukowski.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     bukowskiQuotes.style.display = "inline";
 })
@@ -557,6 +578,7 @@ thompson.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     thompsonQuotes.style.display = "inline";
 })
@@ -584,6 +606,7 @@ alighieri.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     alighieriQuotes.style.display = "inline";
 })
@@ -611,6 +634,7 @@ garciaMarquez.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     garciaMarquezQuotes.style.display = "inline";
 })
@@ -638,6 +662,7 @@ despentes.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     despentesQuotes.style.display = "inline";
 })
@@ -665,6 +690,7 @@ murakami.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     murakamiQuotes.style.display = "inline";
 })
@@ -692,6 +718,7 @@ gogol.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     gogolQuotes.style.display = "inline";
 })
@@ -719,6 +746,35 @@ kafka.addEventListener('click', () => {
     murakami.style.display = "none";
     gogol.style.display = "none";
     kafka.style.display = "none";
+    kierkegaard.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     kafkaQuotes.style.display = "inline";
+})
+
+// WHEN KIERKEGAARD IS CLICKED
+//
+kierkegaard.addEventListener('click', () => {
+    hesse.style.display = "none";
+    pessoa.style.display = "none";
+    cortazar.style.display = "none";
+    bradbury.style.display = "none";
+    borges.style.display = "none";
+    dostoievski.style.display = "none";
+    tolstoi.style.display = "none";
+    navokob.style.display = "none";
+    orwell.style.display = "none";
+    benedetti.style.display = "none";
+    unamuno.style.display = "none";
+    wilde.style.display = "none";
+    bukowski.style.display = "none";
+    thompson.style.display = "none";
+    alighieri.style.display = "none";
+    garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
+    murakami.style.display = "none";
+    gogol.style.display = "none";
+    kafka.style.display = "none";
+    kierkegaard.style.display = "none";
+    backToLibraryBtn.style.display = "inline";
+    kierkegaardQuotes.style.display = "inline";
 })

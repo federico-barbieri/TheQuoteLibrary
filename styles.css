@@ -572,6 +572,33 @@
   box-shadow: 5px 5px 8px gray;
 }
 
+/* KIERKEGAARD */
+
+.kierkegaard{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 250px;
+  background-color: #232323;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  font-size: 9px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.kierkegaard:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
 /* BACK TO LIBRARY BUTTON */
 
 .back-to-library{
@@ -899,6 +926,23 @@
 .kafka-quotes-name{
   margin-bottom: 20px;
 }
+
+/* KIERKEGAARD QUOTES */
+
+.kierkegaard-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(320px, -700px);
+}
+
+.kierkegaard-quotes-name{
+  margin-bottom: 20px;
+}
+
+/* media queries */
 
 @media (max-width: 976px){
 .all-quotes{

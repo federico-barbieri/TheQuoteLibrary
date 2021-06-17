@@ -626,6 +626,33 @@
   box-shadow: 5px 5px 8px gray;
 }
 
+/* TWAIN */
+
+.twain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 250px;
+  background-color: #FF96AD;
+  font-family: 'Jost', sans-serif;
+  color: black;
+  font-size: 12px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.twain:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
 /* BACK TO LIBRARY BUTTON */
 
 .back-to-library{
@@ -981,6 +1008,21 @@
 }
 
 .jung-quotes-name{
+  margin-bottom: 20px;
+}
+
+/* TWAIN QUOTES */
+
+.twain-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(310px, -700px);
+}
+
+.twain-quotes-name{
   margin-bottom: 20px;
 }
 

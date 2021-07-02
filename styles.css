@@ -734,6 +734,33 @@
   box-shadow: 5px 5px 8px gray;
 }
 
+/* POE */
+
+.poe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 250px;
+  background-color: #4C4C6D;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.poe:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
 /* BACK TO LIBRARY BUTTON */
 
 .back-to-library{
@@ -1149,6 +1176,21 @@
 }
 
 .sartre-quotes-name{
+  margin-bottom: 20px;
+}
+
+/* POE QUOTES */
+
+.poe-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(218px, -700px);
+}
+
+.poe-quotes-name{
   margin-bottom: 20px;
 }
 

@@ -815,6 +815,33 @@
   box-shadow: 5px 5px 8px gray;
 }
 
+/* DICKINSON */
+
+.dickinson {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 250px;
+  background-color: #FFEACA;
+  font-family: 'Jost', sans-serif;
+  color: black;
+  font-size: 10px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.dickinson:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
 /* BACK TO LIBRARY BUTTON */
 
 .back-to-library{
@@ -1275,6 +1302,21 @@
 }
 
 .austen-quotes-name{
+  margin-bottom: 20px;
+}
+
+/* DICKINSON QUOTES */
+
+.dickinson-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(335px, -700px);
+}
+
+.dickinson-quotes-name{
   margin-bottom: 20px;
 }
 

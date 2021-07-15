@@ -184,6 +184,11 @@ const dickinson = document.querySelector('.dickinson');
 const dickinsonQuotes = document.querySelector('.dickinson-quotes');
 //
 //
+// BRONTE
+const bronte = document.querySelector('.bronte');
+
+const bronteQuotes = document.querySelector('.bronte-quotes');
+//
 // BACK-TO-LIBRARY BUTTON
 
 const backToLibraryBtn = document.querySelector('.back-to-library');
@@ -221,6 +226,7 @@ hesse.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     hesseQuotes.style.display = "inline";
 })
@@ -258,6 +264,7 @@ backToLibraryBtn.addEventListener('click', () => {
   woolf.style.display = "flex";
   austen.style.display = "flex";
   dickinson.style.display = "flex";
+  bronte.style.display = "flex";
   backToLibraryBtn.style.display = "none";
   hesseQuotes.style.display = "none";
   pessoaQuotes.style.display = "none";
@@ -289,6 +296,7 @@ backToLibraryBtn.addEventListener('click', () => {
   woolfQuotes.style.display = "none";
   austenQuotes.style.display = "none";
   dickinsonQuotes.style.display = "none";
+  bronteQuotes.style.display = "none";
 
 })
 //
@@ -325,6 +333,7 @@ pessoa.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     pessoaQuotes.style.display = "inline";
 })
@@ -362,6 +371,7 @@ cortazar.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     cortazarQuotes.style.display = "inline";
 })
@@ -398,7 +408,8 @@ bradbury.addEventListener('click', () => {
     poe.style.display = "none";
     woolf.style.display = "none";
     austen.style.display = "none";
-    dickinson.style.display = "none";
+    dickinson.style.display = "none";+
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     bradburyQuotes.style.display = "inline";
 
@@ -437,6 +448,7 @@ borges.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     borgesQuotes.style.display = "inline";
 
@@ -475,6 +487,7 @@ dostoievski.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     dostoievskiQuotes.style.display = "inline";
 
@@ -513,6 +526,7 @@ tolstoi.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     tolstoiQuotes.style.display = "inline";
 
@@ -551,6 +565,7 @@ navokob.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     navokobQuotes.style.display = "inline";
 
@@ -589,6 +604,7 @@ orwell.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     orwellQuotes.style.display = "inline";
 
@@ -627,6 +643,7 @@ benedetti.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     benedettiQuotes.style.display = "inline";
 
@@ -665,6 +682,7 @@ unamuno.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     unamunoQuotes.style.display = "inline";
 
@@ -703,6 +721,7 @@ wilde.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     wildeQuotes.style.display = "inline";
 
@@ -741,6 +760,7 @@ bukowski.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     bukowskiQuotes.style.display = "inline";
 })
@@ -778,6 +798,7 @@ thompson.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     thompsonQuotes.style.display = "inline";
 })
@@ -815,6 +836,7 @@ alighieri.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     alighieriQuotes.style.display = "inline";
 })
@@ -852,6 +874,7 @@ garciaMarquez.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     garciaMarquezQuotes.style.display = "inline";
 })
@@ -889,6 +912,7 @@ despentes.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     despentesQuotes.style.display = "inline";
 })
@@ -926,6 +950,7 @@ murakami.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     murakamiQuotes.style.display = "inline";
 })
@@ -963,6 +988,7 @@ gogol.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     gogolQuotes.style.display = "inline";
 })
@@ -1000,6 +1026,7 @@ kafka.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     kafkaQuotes.style.display = "inline";
 })
@@ -1037,6 +1064,7 @@ kierkegaard.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     kierkegaardQuotes.style.display = "inline";
 })
@@ -1074,6 +1102,7 @@ jung.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     jungQuotes.style.display = "inline";
 })
@@ -1111,6 +1140,7 @@ twain.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     twainQuotes.style.display = "inline";
 })
@@ -1148,6 +1178,7 @@ burroughs.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     burroughsQuotes.style.display = "inline";
 })
@@ -1185,6 +1216,7 @@ proust.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     proustQuotes.style.display = "inline";
 })
@@ -1222,6 +1254,7 @@ sartre.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     sartreQuotes.style.display = "inline";
 })
@@ -1259,6 +1292,7 @@ poe.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     poeQuotes.style.display = "inline";
 })
@@ -1296,6 +1330,7 @@ woolf.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     woolfQuotes.style.display = "inline";
 })
@@ -1333,6 +1368,7 @@ austen.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     austenQuotes.style.display = "inline";
 })
@@ -1370,6 +1406,45 @@ dickinson.addEventListener('click', () => {
     woolf.style.display = "none";
     austen.style.display = "none";
     dickinson.style.display = "none";
+    bronte.style.display = "none";
     backToLibraryBtn.style.display = "inline";
     dickinsonQuotes.style.display = "inline";
+})
+
+// WHEN BRONTE IS CLICKED
+//
+bronte.addEventListener('click', () => {
+    hesse.style.display = "none";
+    pessoa.style.display = "none";
+    cortazar.style.display = "none";
+    bradbury.style.display = "none";
+    borges.style.display = "none";
+    dostoievski.style.display = "none";
+    tolstoi.style.display = "none";
+    navokob.style.display = "none";
+    orwell.style.display = "none";
+    benedetti.style.display = "none";
+    unamuno.style.display = "none";
+    wilde.style.display = "none";
+    bukowski.style.display = "none";
+    thompson.style.display = "none";
+    alighieri.style.display = "none";
+    garciaMarquez.style.display = "none";
+    despentes.style.display = "none";
+    murakami.style.display = "none";
+    gogol.style.display = "none";
+    kafka.style.display = "none";
+    kierkegaard.style.display = "none";
+    jung.style.display = "none";
+    twain.style.display = "none";
+    burroughs.style.display = "none";
+    proust.style.display = "none";
+    sartre.style.display = "none";
+    poe.style.display = "none";
+    woolf.style.display = "none";
+    austen.style.display = "none";
+    dickinson.style.display = "none";
+    bronte.style.display = "none";
+    backToLibraryBtn.style.display = "inline";
+    bronteQuotes.style.display = "inline";
 })

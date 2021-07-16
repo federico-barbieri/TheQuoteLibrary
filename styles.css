@@ -869,6 +869,33 @@
   box-shadow: 5px 5px 8px gray;
 }
 
+/* PLATH */
+
+.plath {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 250px;
+  background-color: #BB371A;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  font-size: 10px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.plath:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
 /* BACK TO LIBRARY BUTTON */
 
 .back-to-library{
@@ -1362,10 +1389,25 @@
   margin-bottom: 20px;
 }
 
-/* media queries */
+/* PLATH QUOTES */
 
-@media (max-width: 976px){
-.all-quotes{
-  transform: translateX(50px);
+.plath-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(265px, -700px);
 }
+
+.plath-quotes-name{
+  margin-bottom: 20px;
+}
+
+.all-quotes!{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }

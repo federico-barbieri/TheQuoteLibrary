@@ -977,6 +977,33 @@
   box-shadow: 5px 5px 8px gray;
 }
 
+/* ASIMOV */
+
+.asimov {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 250px;
+  background-color: #F6DFEB;
+  font-family: 'Jost', sans-serif;
+  color: black;
+  font-size: 13px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.asimov:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
 /* BACK TO LIBRARY BUTTON */
 
 .back-to-library{
@@ -1527,6 +1554,21 @@
 }
 
 .shelley-quotes-name{
+  margin-bottom: 20px;
+}
+
+/* ASIMOV QUOTES */
+
+.asimov-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(255px, -700px);
+}
+
+.asimov-quotes-name{
   margin-bottom: 20px;
 }
 

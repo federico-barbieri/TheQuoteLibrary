@@ -1058,6 +1058,33 @@
   box-shadow: 5px 5px 8px gray;
 }
 
+/* JOYCE */
+
+.joyce {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 250px;
+  background-color: #E99497;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.joyce:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
 /* BACK TO LIBRARY BUTTON */
 
 .back-to-library{
@@ -1653,6 +1680,21 @@
 }
 
 .steinbeck-quotes-name{
+  margin-bottom: 20px;
+}
+
+/* JOYCE QUOTES */
+
+.joyce-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(300px, -700px);
+}
+
+.joyce-quotes-name{
   margin-bottom: 20px;
 }
 

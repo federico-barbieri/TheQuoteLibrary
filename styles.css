@@ -1193,6 +1193,33 @@
   box-shadow: 5px 5px 8px gray;
 }
 
+/* SALINGER */
+
+.salinger {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 250px;
+  background-color: #B97A95;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  font-size: 9px;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.salinger:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
 /* BACK TO LIBRARY BUTTON */
 
 .back-to-library{
@@ -1863,5 +1890,20 @@
 }
 
 .saramago-quotes-name{
+  margin-bottom: 20px;
+}
+
+/* SALINGER QUOTES */
+
+.salinger-quotes{
+  position: absolute;
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  display: none;
+  transform: translate(-170px, -490px);
+}
+
+.salinger-quotes-name{
   margin-bottom: 20px;
 }

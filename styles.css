@@ -1251,7 +1251,7 @@
   font-size: 30px;
   text-align: center;
   visibility: hidden;
-
+  transform: translateY(200px);
 }
 
 .hesse-quotes-name{

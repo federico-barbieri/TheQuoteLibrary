@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+html{
+  font-size: 20px;
+}
 
 /* COMPLETE GRID */
 
@@ -23,9 +26,9 @@
 .library-title{
   font-family: "Montserrat", sans-serif;
   -webkit-font-family: "Montserrat";
-  font-size: 25px;
+  font-size: 1.3rem;
 
-  margin-bottom: 25px;
+  margin-bottom: 1.2rem;
 }
 
 /* authors */
@@ -41,9 +44,11 @@
 /* QUOTES */
 .all-quotes{
   display: grid;
-  grid-template: 400px / 600px;
-  border: 2px solid red;
-  transform: translateY(-2400px);
+  grid-template: 300px / 600px;
+  height: 300px;
+
+  transform: translateY(-2100px);
+  z-index: -1;
 }
 
 
@@ -1248,10 +1253,10 @@
 .hesse-quotes{
 
   font-family: "montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(200px);
+  transform: translateY(100px);
 }
 
 .hesse-quotes-name{
@@ -1264,10 +1269,10 @@
 .pessoa-quotes{
 
   font-family: "montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-200px);
+  transform: translateY(-220px);
 
 }
 
@@ -1278,13 +1283,12 @@
 /* CORTAZAR QUOTES */
 
 .cortazar-quotes{
-  position: absolute;
-  font-family: "montserrat", sans-serif;
-  font-size: 20px;
-  text-align: center;
-  display: none;
-  transform: translate(255px, -700px);
 
+  font-family: "montserrat", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  visibility: hidden;
+  transform: translateY(-370px);
 }
 
 .cortazar-quotes-name{
@@ -1294,12 +1298,11 @@
 /* BRADBURY QUOTES */
 
 .bradbury-quotes{
-  position: absolute;
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(240px, -700px);
+  visibility: hidden;
+  transform: translateY(-520px);
 
 }
 
@@ -1310,12 +1313,12 @@
 /* BORGES QUOTES */
 
 .borges-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(265px, -700px);
+  visibility: hidden;
+  transform: translateY(-650px);
 
 }
 
@@ -1326,12 +1329,12 @@
 /* DOSTOIEVSKI QUOTES */
 
 .dostoievski-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(175px, -700px);
+  visibility: hidden;
+  transform: translateY(-820px);
 
 }
 
@@ -1342,12 +1345,12 @@
 /* TOLSTOI QUOTES */
 
 .tolstoi-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(345px, -700px);
+  visibility: hidden;
+  transform: translateY(-950px);
 
 }
 
@@ -1358,12 +1361,12 @@
 /* NAVOKOB QUOTES */
 
 .navokob-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(200px, -700px);
+  visibility: hidden;
+  transform: translateY(-1080px);
 
 }
 
@@ -1374,12 +1377,11 @@
 /* ORWELL QUOTES */
 
 .orwell-quotes{
-  position: absolute;
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(275px, -700px);
+  visibility: hidden;
+  transform: translateY(-1270px);
 
 }
 
@@ -1390,12 +1392,12 @@
 /* BENEDETTI QUOTES */
 
 .benedetti-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(248px, -700px);
+  visibility: hidden;
+  transform: translateY(-1480px);
 
 }
 
@@ -1406,12 +1408,12 @@
 /* UNAMUNO QUOTES */
 
 .unamuno-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(145px, -700px);
+  visibility: hidden;
+  transform: translateY(-1650px);
 
 }
 
@@ -1422,12 +1424,12 @@
 /* WILDE QUOTES */
 
 .wilde-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(275px, -700px);
+  visibility: hidden;
+  transform: translateY(-1790px);
 
 }
 
@@ -1438,12 +1440,12 @@
 /* BUKOWSKI QUOTES */
 
 .bukowski-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(290px, -700px);
+  visibility: hidden;
+  transform: translateY(-1950px);
 }
 
 .bukowski-quotes-name{
@@ -1453,12 +1455,12 @@
 /* THOMPSON QUOTES */
 
 .thompson-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(340px, -700px);
+  visibility: hidden;
+  transform: translateY(-2060px);
 }
 
 .thompson-quotes-name{
@@ -1468,12 +1470,12 @@
 /* ALIGHIERI QUOTES */
 
 .alighieri-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(310px, -700px);
+  visibility: hidden;
+  transform: translateY(-2180px);
 }
 
 .alighieri-quotes-name{
@@ -1483,12 +1485,12 @@
 /* GARCÍA MÁRQUEZ QUOTES */
 
 .garcia-marquez-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(270px, -700px);
+  visibility: hidden;
+  transform: translateY(-2300px);
 }
 
 .garcia-marquez-quotes-name{
@@ -1498,12 +1500,12 @@
 /* DESPENTES QUOTES */
 
 .despentes-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(235px, -700px);
+  visibility: hidden;
+  transform: translateY(-2470px);
 }
 
 .despentes-quotes-name{
@@ -1513,12 +1515,12 @@
 /* MURAKAMI QUOTES */
 
 .murakami-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(180px, -700px);
+  visibility: hidden;
+  transform: translateY(-2610px);
 }
 
 .murakami-quotes-name{
@@ -1528,12 +1530,12 @@
 /* GOGOL QUOTES */
 
 .gogol-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(287px, -700px);
+  visibility: hidden;
+  transform: translateY(-2770px);
 }
 
 .gogol-quotes-name{
@@ -1543,12 +1545,12 @@
 /* KAFKA QUOTES */
 
 .kafka-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(282px, -700px);
+  visibility: hidden;
+  transform: translateY(-2900px);
 }
 
 .kafka-quotes-name{
@@ -1558,12 +1560,12 @@
 /* KIERKEGAARD QUOTES */
 
 .kierkegaard-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(320px, -700px);
+  visibility: hidden;
+  transform: translateY(-3050px);
 }
 
 .kierkegaard-quotes-name{
@@ -1573,12 +1575,12 @@
 /* JUNG QUOTES */
 
 .jung-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(220px, -700px);
+  visibility: hidden;
+  transform: translateY(-3200px);
 }
 
 .jung-quotes-name{
@@ -1588,12 +1590,12 @@
 /* TWAIN QUOTES */
 
 .twain-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(310px, -700px);
+  visibility: hidden;
+  transform: translateY(-3350px);
 }
 
 .twain-quotes-name{
@@ -1603,12 +1605,12 @@
 /* BURROUGHS QUOTES */
 
 .burroughs-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(285px, -700px);
+  visibility: hidden;
+  transform: translateY(-3500px);
 }
 
 .burroughs-quotes-name{
@@ -1618,12 +1620,12 @@
 /* PROUST QUOTES */
 
 .proust-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(233px, -700px);
+  visibility: hidden;
+  transform: translateY(-3640px);
 }
 
 .proust-quotes-name{
@@ -1633,12 +1635,12 @@
 /* SARTRE QUOTES */
 
 .sartre-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(208px, -700px);
+  visibility: hidden;
+  transform: translateY(-3800px);
 }
 
 .sartre-quotes-name{
@@ -1648,12 +1650,12 @@
 /* POE QUOTES */
 
 .poe-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(218px, -700px);
+  visibility: hidden;
+  transform: translateY(-3950px);
 }
 
 .poe-quotes-name{
@@ -1663,12 +1665,11 @@
 /* WOOLF QUOTES */
 
 .woolf-quotes{
-  position: absolute;
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(207px, -700px);
+  visibility: hidden;
+  transform: translateY(-4100px);
 }
 
 .woolf-quotes-name{
@@ -1678,12 +1679,12 @@
 /* AUSTEN QUOTES */
 
 .austen-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(150px, -700px);
+  visibility: hidden;
+  transform: translateY(-4250px);
 }
 
 .austen-quotes-name{
@@ -1693,12 +1694,12 @@
 /* DICKINSON QUOTES */
 
 .dickinson-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(335px, -700px);
+  visibility: hidden;
+  transform: translateY(-4370px);
 }
 
 .dickinson-quotes-name{
@@ -1708,12 +1709,11 @@
 /* BRONTE QUOTES */
 
 .bronte-quotes{
-  position: absolute;
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(335px, -700px);
+  visibility: hidden;
+  transform: translateY(-4480px);
 }
 
 .bronte-quotes-name{
@@ -1723,12 +1723,12 @@
 /* PLATH QUOTES */
 
 .plath-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(265px, -700px);
+  visibility: hidden;
+  transform: translateY(-4630px);
 }
 
 .plath-quotes-name{
@@ -1738,12 +1738,12 @@
 /* CHRISTIE QUOTES */
 
 .christie-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(320px, -700px);
+  visibility: hidden;
+  transform: translateY(-4750px);
 }
 
 .christie-quotes-name{
@@ -1753,12 +1753,12 @@
 /* LEE QUOTES */
 
 .lee-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(210px, -700px);
+  visibility: hidden;
+  transform: translateY(-4880px);
 }
 
 .lee-quotes-name{
@@ -1768,12 +1768,12 @@
 /* SHELLEY QUOTES */
 
 .shelley-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(145px, -700px);
+  visibility: hidden;
+  transform: translateY(-5030px);
 }
 
 .shelley-quotes-name{
@@ -1783,12 +1783,12 @@
 /* ASIMOV QUOTES */
 
 .asimov-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(255px, -700px);
+  visibility: hidden;
+  transform: translateY(-5170px);
 }
 
 .asimov-quotes-name{
@@ -1798,12 +1798,12 @@
 /* FAULKNER QUOTES */
 
 .faulkner-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(260px, -700px);
+  visibility: hidden;
+  transform: translateY(-5320px);
 }
 
 .faulkner-quotes-name{
@@ -1813,12 +1813,12 @@
 /* STEINBECK QUOTES */
 
 .steinbeck-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(265px, -700px);
+  visibility: hidden;
+  transform: translateY(-5480px);
 }
 
 .steinbeck-quotes-name{
@@ -1828,12 +1828,12 @@
 /* JOYCE QUOTES */
 
 .joyce-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(300px, -700px);
+  visibility: hidden;
+  transform: translateY(-5630px);
 }
 
 .joyce-quotes-name{
@@ -1843,12 +1843,12 @@
 /* MELVILLE QUOTES */
 
 .melville-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(-250px, -490px);
+  visibility: hidden;
+  transform: translateY(-5750px);
 }
 
 .melville-quotes-name{
@@ -1858,12 +1858,12 @@
 /* HUGO QUOTES */
 
 .hugo-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(-240px, -490px);
+  visibility: hidden;
+  transform: translateY(-5900px);
 }
 
 .hugo-quotes-name{
@@ -1873,12 +1873,12 @@
 /* MISHIMA QUOTES */
 
 .mishima-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(-220px, -490px);
+  visibility: hidden;
+  transform: translateY(-6050px);
 }
 
 .mishima-quotes-name{
@@ -1888,12 +1888,12 @@
 /* SARAMAGO QUOTES */
 
 .saramago-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(-245px, -490px);
+  visibility: hidden;
+  transform: translateY(-6220px);
 }
 
 .saramago-quotes-name{
@@ -1903,12 +1903,12 @@
 /* SALINGER QUOTES */
 
 .salinger-quotes{
-  position: absolute;
+
   font-family: "montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 1.5rem;
   text-align: center;
-  display: none;
-  transform: translate(-170px, -490px);
+  visibility: hidden;
+  transform: translateY(-6360px);
 }
 
 .salinger-quotes-name{

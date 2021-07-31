@@ -275,6 +275,12 @@ const salinger = document.querySelector('.salinger');
 
 const salingerQuotes = document.querySelector('.salinger-quotes');
 //
+//
+// LONDON
+const london = document.querySelector('.london');
+
+const londonQuotes = document.querySelector('.london-quotes');
+//
 // BACK-TO-LIBRARY BUTTON
 
 const backToLibraryBtn = document.querySelector('.back-to-library');
@@ -326,6 +332,7 @@ hesse.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     hesseQuotes.style.visibility = "visible";
 })
@@ -377,6 +384,7 @@ backToLibraryBtn.addEventListener('click', () => {
   mishima.style.visibility = "visible";
   saramago.style.visibility = "visible";
   salinger.style.visibility = "visible";
+  london.style.visibility = "visibile";
   backToLibraryBtn.style.visibility = "hidden";
   hesseQuotes.style.visibility = "hidden";
   pessoaQuotes.style.visibility = "hidden";
@@ -422,6 +430,7 @@ backToLibraryBtn.addEventListener('click', () => {
   mishimaQuotes.style.visibility = "hidden";
   saramagoQuotes.style.visibility = "hidden";
   salingerQuotes.style.visibility = "hidden";
+  londonQuotes.style.visibility = "hidden";
 
 })
 //
@@ -472,6 +481,7 @@ pessoa.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     pessoaQuotes.style.visibility = "visible";
 })
@@ -523,6 +533,7 @@ cortazar.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     cortazarQuotes.style.visibility = "visible";
 })
@@ -574,6 +585,7 @@ bradbury.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     bradburyQuotes.style.visibility = "visible";
 
@@ -626,6 +638,7 @@ borges.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     borgesQuotes.style.visibility = "visible";
 
@@ -678,6 +691,7 @@ dostoievski.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     dostoievskiQuotes.style.visibility = "visible";
 
@@ -730,6 +744,7 @@ tolstoi.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     tolstoiQuotes.style.visibility = "visible";
 
@@ -782,6 +797,7 @@ navokob.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     navokobQuotes.style.visibility = "visible";
 
@@ -834,6 +850,7 @@ orwell.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     orwellQuotes.style.visibility = "visible";
 
@@ -886,6 +903,7 @@ benedetti.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     benedettiQuotes.style.visibility = "visible";
 
@@ -938,6 +956,7 @@ unamuno.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     unamunoQuotes.style.visibility = "visible";
 
@@ -990,6 +1009,7 @@ wilde.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     wildeQuotes.style.visibility = "visible";
 
@@ -1042,6 +1062,7 @@ bukowski.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     bukowskiQuotes.style.visibility = "visible";
 })
@@ -1093,6 +1114,7 @@ thompson.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     thompsonQuotes.style.visibility = "visible";
 })
@@ -1144,6 +1166,7 @@ alighieri.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     alighieriQuotes.style.visibility = "visible";
 })
@@ -1195,6 +1218,7 @@ garciaMarquez.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     garciaMarquezQuotes.style.visibility = "visible";
 })
@@ -1246,6 +1270,7 @@ despentes.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     despentesQuotes.style.visibility = "visible";
 })
@@ -1297,6 +1322,7 @@ murakami.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     murakamiQuotes.style.visibility = "visible";
 })
@@ -1348,6 +1374,7 @@ gogol.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     gogolQuotes.style.visibility = "visible";
 })
@@ -1399,6 +1426,7 @@ kafka.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     kafkaQuotes.style.visibility = "visible";
 })
@@ -1450,6 +1478,7 @@ kierkegaard.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     kierkegaardQuotes.style.visibility = "visible";
 })
@@ -1501,6 +1530,7 @@ jung.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     jungQuotes.style.visibility = "visible";
 })
@@ -1552,6 +1582,7 @@ twain.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     twainQuotes.style.visibility = "visible";
 })
@@ -1603,6 +1634,7 @@ burroughs.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     burroughsQuotes.style.visibility = "visible";
 })
@@ -1654,6 +1686,7 @@ proust.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     proustQuotes.style.visibility = "visible";
 })
@@ -1705,6 +1738,7 @@ sartre.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     sartreQuotes.style.visibility = "visible";
 })
@@ -1756,6 +1790,7 @@ poe.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     poeQuotes.style.visibility = "visible";
 })
@@ -1807,6 +1842,7 @@ woolf.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     woolfQuotes.style.visibility = "visible";
 })
@@ -1858,6 +1894,7 @@ austen.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     austenQuotes.style.visibility = "visible";
 })
@@ -1909,6 +1946,7 @@ dickinson.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     dickinsonQuotes.style.visibility = "visible";
 })
@@ -1960,6 +1998,7 @@ bronte.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     bronteQuotes.style.visibility = "visible";
 })
@@ -2011,6 +2050,7 @@ plath.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     plathQuotes.style.visibility = "visible";
 })
@@ -2062,6 +2102,7 @@ christie.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     christieQuotes.style.visibility = "visible";
 })
@@ -2113,6 +2154,7 @@ lee.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     leeQuotes.style.visibility = "visible";
 })
@@ -2164,6 +2206,7 @@ shelley.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     shelleyQuotes.style.visibility = "visible";
 })
@@ -2215,6 +2258,7 @@ asimov.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     asimovQuotes.style.visibility = "visible";
 })
@@ -2266,6 +2310,7 @@ faulkner.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     faulknerQuotes.style.visibility = "visible";
 })
@@ -2317,6 +2362,7 @@ steinbeck.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     steinbeckQuotes.style.visibility = "visible";
 })
@@ -2368,6 +2414,7 @@ joyce.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     joyceQuotes.style.visibility = "visible";
 })
@@ -2419,6 +2466,7 @@ melville.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     melvilleQuotes.style.visibility = "visible";
 })
@@ -2470,6 +2518,7 @@ hugo.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     hugoQuotes.style.visibility = "visible";
 })
@@ -2521,6 +2570,7 @@ mishima.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     mishimaQuotes.style.visibility = "visible";
 })
@@ -2572,6 +2622,7 @@ saramago.addEventListener('click', () => {
     mishima.style.visibility = "hidden";
     saramago.style.visibility = "hidden";
     salinger.style.visibility = "hidden";
+    london.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     saramagoQuotes.style.visibility = "visible";
 })
@@ -2623,6 +2674,59 @@ salinger.addEventListener('click', () => {
   mishima.style.visibility = "hidden";
   saramago.style.visibility = "hidden";
   salinger.style.visibility = "hidden";
+  london.style.visibility = "hidden";
   backToLibraryBtn.style.visibility = "visible";
   salingerQuotes.style.visibility = "visible";
+})
+
+// WHEN LONDON IS CLICKED
+//
+london.addEventListener('click', () => {
+  hesse.style.visibility = "hidden";
+  pessoa.style.visibility = "hidden";
+  cortazar.style.visibility = "hidden";
+  bradbury.style.visibility = "hidden";
+  borges.style.visibility = "hidden";
+  dostoievski.style.visibility = "hidden";
+  tolstoi.style.visibility = "hidden";
+  navokob.style.visibility = "hidden";
+  orwell.style.visibility = "hidden";
+  benedetti.style.visibility = "hidden";
+  unamuno.style.visibility = "hidden";
+  wilde.style.visibility = "hidden";
+  bukowski.style.visibility = "hidden";
+  thompson.style.visibility = "hidden";
+  alighieri.style.visibility = "hidden";
+  garciaMarquez.style.visibility = "hidden";
+  despentes.style.visibility = "hidden";
+  murakami.style.visibility = "hidden";
+  gogol.style.visibility = "hidden";
+  kafka.style.visibility = "hidden";
+  kierkegaard.style.visibility = "hidden";
+  jung.style.visibility = "hidden";
+  twain.style.visibility = "hidden";
+  burroughs.style.visibility = "hidden";
+  proust.style.visibility = "hidden";
+  sartre.style.visibility = "hidden";
+  poe.style.visibility = "hidden";
+  woolf.style.visibility = "hidden";
+  austen.style.visibility = "hidden";
+  dickinson.style.visibility = "hidden";
+  bronte.style.visibility = "hidden";
+  plath.style.visibility = "hidden";
+  christie.style.visibility = "hidden";
+  lee.style.visibility = "hidden";
+  shelley.style.visibility = "hidden";
+  asimov.style.visibility = "hidden";
+  faulkner.style.visibility = "hidden";
+  steinbeck.style.visibility = "hidden";
+  joyce.style.visibility = "hidden";
+  melville.style.visibility = "hidden";
+  hugo.style.visibility = "hidden";
+  mishima.style.visibility = "hidden";
+  saramago.style.visibility = "hidden";
+  salinger.style.visibility = "hidden";
+  london.style.visibility = "hidden";
+  backToLibraryBtn.style.visibility = "visible";
+  londonQuotes.style.visibility = "visible";
 })

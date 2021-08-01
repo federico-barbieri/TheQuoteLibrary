@@ -1262,6 +1262,33 @@ html{
   box-shadow: 5px 5px 8px gray;
 }
 
+/* TOLKIEN */
+
+.tolkien {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 250px;
+  background-color: #FF4848;
+  font-family: 'Jost', sans-serif;
+  color: white;
+  font-size: 0.6rem;
+  cursor: pointer;
+  align-self: center;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 3px;
+}
+
+.tolkien:hover{
+  color: gray;
+  box-shadow: 5px 5px 8px gray;
+}
+
 /* BACK TO LIBRARY BUTTON */
 
 .back-to-library{
@@ -1957,5 +1984,20 @@ html{
 }
 
 .london-quotes-name{
+  margin-bottom: 20px;
+}
+
+/* TOLKIEN QUOTES */
+
+.tolkien-quotes{
+
+  font-family: "montserrat", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  visibility: hidden;
+  transform: translateY(-6620px);
+}
+
+.tolkien-quotes-name{
   margin-bottom: 20px;
 }

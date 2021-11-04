@@ -3,6 +3,11 @@
 // ALL AUTHORS
 const allAuthors = document.querySelector('.authors');
 const allQuotes = document.querySelector('.all-quotes');
+//
+//
+// EVERYTHING
+const everything = document.querySelector('#everything');
+
 
 //
 //
@@ -355,6 +360,7 @@ hesse.addEventListener('click', () => {
     naval.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     hesseQuotes.style.visibility = "visible";
+
 })
 //
 // WHEN BACK TO LIBRARY BUTTON IS PRESSED

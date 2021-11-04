@@ -8,27 +8,33 @@ html{
   font-size: 20px;
 }
 
+body{
+  background-image: url("img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 /* COMPLETE GRID */
 
 #everything {
-
-  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
-  margin-bottom: 200px;
+  overflow: hidden;
+  margin: 1rem auto 1rem auto;
+  max-width: 80%;
 }
 
 /* LIBRARY TITLE*/
 
 .library-title{
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   -webkit-font-family: "Montserrat";
   font-size: 1.3rem;
-
-  margin-bottom: 1.2rem;
+  color: white;
+  margin: 10rem auto 3rem auto;
 }
 
 /* authors */
@@ -46,9 +52,10 @@ html{
   display: grid;
   grid-template: 300px / 600px;
   height: 300px;
-  /*border: 1px solid red;*/
   transform: translateY(-2100px);
   z-index: -1;
+  font-family: 'Bad Script', cursive;
+  color: white;
 }
 
 
@@ -1320,11 +1327,13 @@ html{
 
 .back-to-library{
   padding: 10px;
-  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  font-family: 'Bad Script', cursive;
   border-radius: 40px;
   margin-bottom: 30px;
   visibility: hidden;
-  transform: scale(1.2);
+  transform: scale(3) translateY(-420px);
+
 }
 
 .back-to-library:hover {
@@ -1336,11 +1345,13 @@ html{
 
 .hesse-quotes{
 
-  font-family: "montserrat", sans-serif;
-  font-size: 1.5rem;
+  font-family: 'Bad Script', cursive;
+  font-size: 5rem;
   text-align: center;
   visibility: hidden;
   transform: translateY(100px);
+  color: white;
+  border: 3px solid orange;
 }
 
 .hesse-quotes-name{
@@ -1352,7 +1363,7 @@ html{
 
 .pessoa-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1368,7 +1379,7 @@ html{
 
 .cortazar-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1382,7 +1393,7 @@ html{
 /* BRADBURY QUOTES */
 
 .bradbury-quotes{
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1398,7 +1409,7 @@ html{
 
 .borges-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1414,7 +1425,7 @@ html{
 
 .dostoievski-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1430,7 +1441,7 @@ html{
 
 .tolstoi-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1446,7 +1457,7 @@ html{
 
 .navokob-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1461,7 +1472,7 @@ html{
 /* ORWELL QUOTES */
 
 .orwell-quotes{
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1477,7 +1488,7 @@ html{
 
 .benedetti-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1493,7 +1504,7 @@ html{
 
 .unamuno-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1509,7 +1520,7 @@ html{
 
 .wilde-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1525,7 +1536,7 @@ html{
 
 .bukowski-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1540,7 +1551,7 @@ html{
 
 .thompson-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1555,7 +1566,7 @@ html{
 
 .alighieri-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1570,7 +1581,7 @@ html{
 
 .garcia-marquez-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1585,7 +1596,7 @@ html{
 
 .despentes-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1600,7 +1611,7 @@ html{
 
 .murakami-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1615,7 +1626,7 @@ html{
 
 .gogol-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1630,7 +1641,7 @@ html{
 
 .kafka-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1645,7 +1656,7 @@ html{
 
 .kierkegaard-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1660,7 +1671,7 @@ html{
 
 .jung-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1675,7 +1686,7 @@ html{
 
 .twain-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1690,7 +1701,7 @@ html{
 
 .burroughs-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1705,7 +1716,7 @@ html{
 
 .proust-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1720,7 +1731,7 @@ html{
 
 .sartre-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1735,7 +1746,7 @@ html{
 
 .poe-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1749,7 +1760,7 @@ html{
 /* WOOLF QUOTES */
 
 .woolf-quotes{
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1764,7 +1775,7 @@ html{
 
 .austen-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1779,7 +1790,7 @@ html{
 
 .dickinson-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1793,7 +1804,7 @@ html{
 /* BRONTE QUOTES */
 
 .bronte-quotes{
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1808,7 +1819,7 @@ html{
 
 .plath-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1823,7 +1834,7 @@ html{
 
 .christie-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1838,7 +1849,7 @@ html{
 
 .lee-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1853,7 +1864,7 @@ html{
 
 .shelley-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1868,7 +1879,7 @@ html{
 
 .asimov-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1883,7 +1894,7 @@ html{
 
 .faulkner-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1898,7 +1909,7 @@ html{
 
 .steinbeck-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1913,7 +1924,7 @@ html{
 
 .joyce-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1928,7 +1939,7 @@ html{
 
 .melville-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1943,7 +1954,7 @@ html{
 
 .hugo-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1958,7 +1969,7 @@ html{
 
 .mishima-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1973,7 +1984,7 @@ html{
 
 .saramago-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -1988,7 +1999,7 @@ html{
 
 .salinger-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -2003,7 +2014,7 @@ html{
 
 .london-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -2018,7 +2029,7 @@ html{
 
 .tolkien-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;
@@ -2033,7 +2044,7 @@ html{
 
 .naval-quotes{
 
-  font-family: "montserrat", sans-serif;
+  font-family: 'Bad Script', cursive;
   font-size: 1.5rem;
   text-align: center;
   visibility: hidden;

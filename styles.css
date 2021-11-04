@@ -8,11 +8,16 @@ html{
   font-size: 20px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body{
   background-image: url("img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
+  text-align: center;
 }
 
 /* COMPLETE GRID */
@@ -24,7 +29,9 @@ body{
   align-items: center;
   overflow: hidden;
   margin: 1rem auto 1rem auto;
-  max-width: 80%;
+  width: 100%;
+  height: auto;
+
 }
 
 /* LIBRARY TITLE*/
@@ -32,9 +39,9 @@ body{
 .library-title{
   font-family: 'Bad Script', cursive;
   -webkit-font-family: "Montserrat";
-  font-size: 1.3rem;
+  font-size: 3rem;
   color: white;
-  margin: 10rem auto 3rem auto;
+  margin: 5rem auto 3rem auto;
 }
 
 /* authors */
@@ -55,6 +62,26 @@ body{
   transform: translateY(-2100px);
   z-index: -1;
   font-family: 'Bad Script', cursive;
+  color: white;
+  
+  margin: 1rem auto 1rem auto;
+}
+
+/* BACK TO LIBRARY BUTTON */
+
+.back-to-library{
+  padding: 2px 10px 2px 10px;
+  position: absolute;
+  font-family: 'Bad Script', cursive;
+  border-radius: 9px;
+  margin-bottom: 30px;
+  visibility: hidden;
+  transform: scale(2.5) translateY(-350px);
+
+}
+
+.back-to-library:hover {
+  background-color: black;
   color: white;
 }
 
@@ -1323,35 +1350,17 @@ body{
   box-shadow: 5px 5px 8px black;
 }
 
-/* BACK TO LIBRARY BUTTON */
-
-.back-to-library{
-  padding: 10px;
-  position: absolute;
-  font-family: 'Bad Script', cursive;
-  border-radius: 40px;
-  margin-bottom: 30px;
-  visibility: hidden;
-  transform: scale(3) translateY(-420px);
-
-}
-
-.back-to-library:hover {
-  background-color: black;
-  color: white;
-}
-
 /* HESSE QUOTES */
 
 .hesse-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(100px);
+  transform: translateY(-580px);
   color: white;
-  border: 3px solid orange;
+
 }
 
 .hesse-quotes-name{
@@ -1364,10 +1373,10 @@ body{
 .pessoa-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-220px);
+  transform: translateY(-880px);
 
 }
 
@@ -1380,10 +1389,10 @@ body{
 .cortazar-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-370px);
+  transform: translateY(-1200px);
 }
 
 .cortazar-quotes-name{
@@ -1394,10 +1403,10 @@ body{
 
 .bradbury-quotes{
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-520px);
+  transform: translateY(-1500px);
 
 }
 
@@ -1410,10 +1419,10 @@ body{
 .borges-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-650px);
+  transform: translateY(-1780px);
 
 }
 
@@ -1426,10 +1435,10 @@ body{
 .dostoievski-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-820px);
+  transform: translateY(-2080px);
 
 }
 
@@ -1442,10 +1451,10 @@ body{
 .tolstoi-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-950px);
+  transform: translateY(-2350px);
 
 }
 
@@ -1458,10 +1467,10 @@ body{
 .navokob-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-1080px);
+  transform: translateY(-2600px);
 
 }
 
@@ -1473,10 +1482,10 @@ body{
 
 .orwell-quotes{
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-1270px);
+  transform: translateY(-2900px);
 
 }
 
@@ -1489,10 +1498,10 @@ body{
 .benedetti-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-1480px);
+  transform: translateY(-3280px);
 
 }
 
@@ -1505,10 +1514,10 @@ body{
 .unamuno-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-1650px);
+  transform: translateY(-3650px);
 
 }
 
@@ -1521,10 +1530,10 @@ body{
 .wilde-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-1790px);
+  transform: translateY(-3950px);
 
 }
 
@@ -1537,10 +1546,10 @@ body{
 .bukowski-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-1950px);
+  transform: translateY(-4300px);
 }
 
 .bukowski-quotes-name{
@@ -1552,10 +1561,10 @@ body{
 .thompson-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-2060px);
+  transform: translateY(-4600px);
 }
 
 .thompson-quotes-name{
@@ -1567,10 +1576,10 @@ body{
 .alighieri-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-2180px);
+  transform: translateY(-4850px);
 }
 
 .alighieri-quotes-name{
@@ -1582,10 +1591,10 @@ body{
 .garcia-marquez-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-2300px);
+  transform: translateY(-5100px);
 }
 
 .garcia-marquez-quotes-name{
@@ -1597,10 +1606,10 @@ body{
 .despentes-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-2470px);
+  transform: translateY(-5400px);
 }
 
 .despentes-quotes-name{
@@ -1612,10 +1621,10 @@ body{
 .murakami-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-2610px);
+  transform: translateY(-5700px);
 }
 
 .murakami-quotes-name{
@@ -1627,10 +1636,10 @@ body{
 .gogol-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-2770px);
+  transform: translateY(-6000px);
 }
 
 .gogol-quotes-name{
@@ -1642,10 +1651,10 @@ body{
 .kafka-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-2900px);
+  transform: translateY(-6380px);
 }
 
 .kafka-quotes-name{
@@ -1657,10 +1666,10 @@ body{
 .kierkegaard-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-3050px);
+  transform: translateY(-6680px);
 }
 
 .kierkegaard-quotes-name{
@@ -1672,10 +1681,10 @@ body{
 .jung-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-3200px);
+  transform: translateY(-6980px);
 }
 
 .jung-quotes-name{
@@ -1687,10 +1696,10 @@ body{
 .twain-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-3350px);
+  transform: translateY(-7280px);
 }
 
 .twain-quotes-name{
@@ -1702,10 +1711,10 @@ body{
 .burroughs-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-3500px);
+  transform: translateY(-7580px);
 }
 
 .burroughs-quotes-name{
@@ -1717,10 +1726,10 @@ body{
 .proust-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-3640px);
+  transform: translateY(-7880px);
 }
 
 .proust-quotes-name{
@@ -1732,10 +1741,10 @@ body{
 .sartre-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-3800px);
+  transform: translateY(-8200px);
 }
 
 .sartre-quotes-name{
@@ -1747,10 +1756,10 @@ body{
 .poe-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-3950px);
+  transform: translateY(-8500px);
 }
 
 .poe-quotes-name{
@@ -1761,10 +1770,10 @@ body{
 
 .woolf-quotes{
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-4100px);
+  transform: translateY(-8850px);
 }
 
 .woolf-quotes-name{
@@ -1776,10 +1785,10 @@ body{
 .austen-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-4250px);
+  transform: translateY(-9150px);
 }
 
 .austen-quotes-name{
@@ -1791,10 +1800,10 @@ body{
 .dickinson-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-4370px);
+  transform: translateY(-9380px);
 }
 
 .dickinson-quotes-name{
@@ -1805,10 +1814,10 @@ body{
 
 .bronte-quotes{
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-4480px);
+  transform: translateY(-9650px);
 }
 
 .bronte-quotes-name{
@@ -1820,10 +1829,10 @@ body{
 .plath-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-4630px);
+  transform: translateY(-9880px);
 }
 
 .plath-quotes-name{
@@ -1835,10 +1844,10 @@ body{
 .christie-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-4750px);
+  transform: translateY(-10150px);
 }
 
 .christie-quotes-name{
@@ -1850,10 +1859,10 @@ body{
 .lee-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-4880px);
+  transform: translateY(-10400px);
 }
 
 .lee-quotes-name{
@@ -1865,10 +1874,10 @@ body{
 .shelley-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-5030px);
+  transform: translateY(-10680px);
 }
 
 .shelley-quotes-name{
@@ -1880,10 +1889,10 @@ body{
 .asimov-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-5170px);
+  transform: translateY(-10980px);
 }
 
 .asimov-quotes-name{
@@ -1895,10 +1904,10 @@ body{
 .faulkner-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-5320px);
+  transform: translateY(-11250px);
 }
 
 .faulkner-quotes-name{
@@ -1910,10 +1919,10 @@ body{
 .steinbeck-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-5480px);
+  transform: translateY(-11550px);
 }
 
 .steinbeck-quotes-name{
@@ -1925,10 +1934,10 @@ body{
 .joyce-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-5630px);
+  transform: translateY(-11850px);
 }
 
 .joyce-quotes-name{
@@ -1940,10 +1949,10 @@ body{
 .melville-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-5750px);
+  transform: translateY(-12100px);
 }
 
 .melville-quotes-name{
@@ -1955,10 +1964,10 @@ body{
 .hugo-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-5900px);
+  transform: translateY(-12400px);
 }
 
 .hugo-quotes-name{
@@ -1970,10 +1979,10 @@ body{
 .mishima-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-6050px);
+  transform: translateY(-12700px);
 }
 
 .mishima-quotes-name{
@@ -1985,10 +1994,10 @@ body{
 .saramago-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-6220px);
+  transform: translateY(-13050px);
 }
 
 .saramago-quotes-name{
@@ -2000,10 +2009,10 @@ body{
 .salinger-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-6360px);
+  transform: translateY(-13300px);
 }
 
 .salinger-quotes-name{
@@ -2015,10 +2024,10 @@ body{
 .london-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-6470px);
+  transform: translateY(-13600px);
 }
 
 .london-quotes-name{
@@ -2030,10 +2039,10 @@ body{
 .tolkien-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-6620px);
+  transform: translateY(-13850px);
 }
 
 .tolkien-quotes-name{
@@ -2045,10 +2054,10 @@ body{
 .naval-quotes{
 
   font-family: 'Bad Script', cursive;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-6750px);
+  transform: translateY(-14050px);
 }
 
 .naval-quotes-name{

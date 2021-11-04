@@ -311,6 +311,7 @@ const backToLibraryBtn = document.querySelector('.back-to-library');
 // WHEN HESSE IS CLICKED
 //
 hesse.addEventListener('click', () => {
+
     hesse.style.visibility = "hidden";
     pessoa.style.visibility = "hidden";
     cortazar.style.visibility = "hidden";

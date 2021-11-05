@@ -27,7 +27,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+
   margin: 1rem auto 1rem auto;
   width: 100%;
   height: auto;
@@ -63,7 +63,7 @@ body{
   z-index: -1;
   font-family: 'Bad Script', cursive;
   color: white;
-  
+  font-size: 2rem;
   margin: 1rem auto 1rem auto;
 }
 
@@ -77,13 +77,33 @@ body{
   margin-bottom: 30px;
   visibility: hidden;
   transform: scale(2.5) translateY(-350px);
-
+  background-color: transparent;
+  color: white;
 }
 
 .back-to-library:hover {
   background-color: black;
   color: white;
+  border: 1.5px solid white;
+
 }
+
+@media only screen and (max-width: 704px){
+  .back-to-library{
+        transform: scale(2) translateY(-300px);
+  }
+  .hesse-quotes{
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 1150px){
+  .back-to-library{
+    transform: scale(2) translateY(-380px);
+  }
+}
+
+
 
 
 /* HESSE */
@@ -1360,7 +1380,6 @@ body{
   visibility: hidden;
   transform: translateY(-580px);
   color: white;
-
 }
 
 .hesse-quotes-name{

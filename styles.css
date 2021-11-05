@@ -90,7 +90,7 @@ body{
 
 @media only screen and (max-width: 704px){
   .back-to-library{
-        transform: scale(2) translateY(-200px);
+        transform: scale(2) translateY(-100px);
   }
   .hesse-quotes{
     font-size: 0.5rem;

@@ -41,7 +41,7 @@ body{
   -webkit-font-family: "Montserrat";
   font-size: 3rem;
   color: white;
-  margin: 2rem auto 2rem auto;
+  margin: 2rem auto 4rem auto;
 }
 
 /* authors */
@@ -1630,7 +1630,7 @@ body{
   font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-5400px);
+  transform: translateY(-5350px);
 }
 
 .despentes-quotes-name{
@@ -1645,7 +1645,7 @@ body{
   font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-5700px);
+  transform: translateY(-5650px);
 }
 
 .murakami-quotes-name{
@@ -1660,7 +1660,7 @@ body{
   font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-6000px);
+  transform: translateY(-5950px);
 }
 
 .gogol-quotes-name{
@@ -2048,7 +2048,7 @@ body{
   font-size: 2rem;
   text-align: center;
   visibility: hidden;
-  transform: translateY(-13600px);
+  transform: translateY(-13500px);
 }
 
 .london-quotes-name{

@@ -900,8 +900,9 @@ orwell.addEventListener('click', () => {
     naval.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     orwellQuotes.style.visibility = "visible";
-
+  
 })
+
 
 // WHEN BENEDETTI IS CLICKED
 //

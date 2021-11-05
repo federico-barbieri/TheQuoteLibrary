@@ -41,7 +41,7 @@ body{
   -webkit-font-family: "Montserrat";
   font-size: 3rem;
   color: white;
-  margin: 5rem auto 3rem auto;
+  margin: 2rem auto 2rem auto;
 }
 
 /* authors */
@@ -76,7 +76,7 @@ body{
   border-radius: 9px;
   margin-bottom: 30px;
   visibility: hidden;
-  transform: scale(2.5) translateY(-350px);
+  transform: scale(2.5) translateY(-330px);
   background-color: transparent;
   color: white;
 }
@@ -91,13 +91,13 @@ body{
 
 @media only screen and (max-width: 1150px){
   .back-to-library{
-    transform: scale(2) translateY(-380px);
+    transform: scale(3) translateY(-230px);
   }
 }
 
 @media only screen and (max-width: 704px){
   .back-to-library{
-        transform: scale(2) translateY(-300px);
+        transform: scale(4) translateY(-100px);
   }
   .hesse-quotes{
     font-size: 0.5rem;
@@ -1505,12 +1505,14 @@ body{
   text-align: center;
   visibility: hidden;
   transform: translateY(-2900px);
-
+  margin: 0.5rem auto 0.5rem auto;
 }
 
 .orwell-quotes-name{
   margin-bottom: 20px;
 }
+
+
 
 /* BENEDETTI QUOTES */
 

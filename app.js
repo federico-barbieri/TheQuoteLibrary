@@ -411,7 +411,7 @@ backToLibraryBtn.addEventListener('click', () => {
   mishima.style.visibility = "visible";
   saramago.style.visibility = "visible";
   salinger.style.visibility = "visible";
-  london.style.visibility = "visibile";
+  london.style.visibility = "visible";
   tolkien.style.visibility = "visible";
   naval.style.visibility = "visible";
   backToLibraryBtn.style.visibility = "hidden";
@@ -900,7 +900,7 @@ orwell.addEventListener('click', () => {
     naval.style.visibility = "hidden";
     backToLibraryBtn.style.visibility = "visible";
     orwellQuotes.style.visibility = "visible";
-  
+
 })
 
 
